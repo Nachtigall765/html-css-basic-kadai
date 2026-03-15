@@ -88,8 +88,8 @@ list-style: none;
 }
 #close{
 position: absolute;  
-top: 20%;
-right: 20%;
+top: 20px;
+right: 20px;
 }
 #logo-sp{
 margin:80px,0px,30px,20px ;
@@ -110,7 +110,7 @@ text-decoration: underline;
 #nav-sp:active{
 color: #ffffff;
 }
-#nav-sp.menu{
+#nav-sp .menu{
 text-decoration: none;
 display: block;
 margin: 20%,20%;
