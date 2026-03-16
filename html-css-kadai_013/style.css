@@ -62,26 +62,27 @@ display: none;
 @media screen and (max-width:767px){
 body{
 min-width: 375px;
-margin: 0%;
+margin: 0;
 }
 #nav-pc{
 display: none;
 }
 #menu-sp{
 float: right;
-padding: 0%;
+padding: 0;
 }
 #nav-sp{
 background-color:#ce933e ;
 position: absolute;
-left: 0%;
-top: 0%;
+left: 0;
+top: 0;
 height: 100%;
 width: 100%;
+display: none;
 z-index: index 100;
 }
 #nav-sp ul{
-padding-left: 0%;
+padding-left: 0;
 }
 #nav-sp li{
 list-style: none;
@@ -110,10 +111,10 @@ text-decoration: underline;
 #nav-sp:active{
 color: #ffffff;
 }
-#nav-sp .menu{
+.menu{
 text-decoration: none;
 display: block;
-margin: 20%,20%;
+margin: 0,20px;
 height: 44px;
 font-size: 16px;
 background-image:url("images/arrow.png") ;
